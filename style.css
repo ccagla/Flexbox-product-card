@@ -51,6 +51,9 @@ li {
     border-radius: 8px;
     margin-bottom: 30px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     
     
 }
@@ -100,3 +103,13 @@ li {
     background-color: #bb6a90;
 }
 
+.price sup {
+    font-size: 24px;
+    position: relative;
+    left: -5px;
+}
+
+.price span {
+    font-size: 18px;
+    margin-left: 5px;
+}
