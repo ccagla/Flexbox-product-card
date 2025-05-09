@@ -30,6 +30,7 @@ li {
 .container {
     background-color: #f8fafe;
     max-width: 1100px;
+   
     border-radius: 10px;
     margin: 0 auto;
     margin-top: 120px;
@@ -46,4 +47,54 @@ li {
 .pricing-card {
    text-align: center;
     padding: 20px;
+    flex: 1;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    
+    
+}
+ .starter {
+    background-color: #f2d5f8;
+
+   
+ 
+ }
+ .pro {
+    background-color: #e6c0e9;
+ 
+ 
+ }
+ .corporate {
+    background-color: #bfabcb;
+  
+   
+ }
+
+ .pricing-card h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding: 15px;
+    color: #333;
+ }
+
+ .btn {
+    display: block;
+    padding: 20px;
+    color: aliceblue;
+    background-color: rgb(75, 36, 63);
+    border: 1px solid #37364b;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    
+ }
+
+ .pricing-card ul {
+    text-align: center;
+ }
+
+.btn:hover {
+    background-color: #bb6a90;
 }
