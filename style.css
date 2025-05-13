@@ -101,6 +101,7 @@ li {
 
  .pricing-card ul {
     text-align: center;
+
  }
 
 .btn:hover {
@@ -116,4 +117,17 @@ li {
 .price span {
     font-size: 18px;
     margin-left: 5px;
+}
+
+
+@media (max-width:768px) {
+    .pricing-section {
+        flex-direction: column;
+    }
+
+    .container {
+        padding: 40px 30px;
+        margin: 4rem;
+
+    }
 }
